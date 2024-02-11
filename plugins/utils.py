@@ -34,13 +34,13 @@ async def get_bot_logs(client: Bot, m: Message):
             await m.reply_document(
                 bot_log_path,
                 quote=True,
-                caption="<b>Ini Logs Bot ini</b>",
+                caption="<b>Here are this Bot's Logs</b>",
             )
         except Exception as e:
             os.remove(bot_log_path)
             LOGGER(__name__).warning(e)
     elif not os.path.exists(bot_log_path):
-        await m.reply_text("❌ <b>Tidak ada log yang ditemukan!</b>")
+        await m.reply_text("❌ <b>No logs found!</b>")
 
 
 @Bot.on_message(filters.command("vars") & filters.user(ADMINS))
