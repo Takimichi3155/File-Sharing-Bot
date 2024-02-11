@@ -18,40 +18,40 @@ class Data:
  ├ /setvar - To set the var with the dibot command
  ├ /delvar - To delete var with dibot command
  ├ /getvar - To view any
-/users - To view bot user statistics
-├ /batch - To link more than one file
-├ /speedtest - To test bot server speed
-└ /broadcast - To send a broadcast message to the pen
+ ├  /users - To view bot user statistics
+ ├ /batch - To link more than one file
+ ├ /speedtest - To test bot server speed
+ └ /broadcast - To send a broadcast message to the pen
 
 👨‍💻 Develoved by </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
 """
 
     close = [
-        [InlineKeyboardButton("", callback_data="close")]
+        [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close")]
     ]
 
     mbuttons = [
         [
             InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close")
         ],
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
+<b>Information:
 
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
+@{} This Is telegram file store bot created by @aye_ujjwal.
 
  • Creator: @{}
- • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
+ • Framework: <a href='https://t.me/Otaku_Vision_M'>Pyrogram</a>
+ • Source Code: <a href='https://t.me/Team_Nexus_M'>File-Sharing-Man v4</a>
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+👨‍💻 Develoved by </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
 """
