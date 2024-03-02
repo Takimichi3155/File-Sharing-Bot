@@ -18,7 +18,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴏɴɢᴏɪɴɢ 💝", url=client.invitelink2),
             ],
             [
                 InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
@@ -29,7 +29,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink),
+                InlineKeyboardButton(text="ᴍᴀɪɴ 💖", url=client.invitelink),
             ],
             [
                 InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink),
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴍᴀɪɴ 💖", url=client.invitelink),
+                InlineKeyboardButton(text="ᴏɴɢᴏɪɴɢ 💝", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data="close")],
         ]
@@ -55,7 +55,7 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴏɴɢᴏɪɴɢ 💝", url=client.invitelink2),
             ],
         ]
         try:
@@ -91,8 +91,8 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 1", url=client.invitelink),
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴍᴀɪɴ 💖", url=client.invitelink),
+                InlineKeyboardButton(text="ᴏɴɢᴏɪɴɢ 💝", url=client.invitelink2),
             ],
         ]
         try:
