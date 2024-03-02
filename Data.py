@@ -10,20 +10,10 @@ class Data:
 ├ /start - Start Bot
 ├ /about - About this Bot
 ├ /help - Help this Bot Command
-├ /ping - To check live bots
+├ /batch - To Batch Files
 └ /uptime - To view bot status
 
-❏ Commands For BOT Admin
- ├ /logs - To view bot logs
- ├ /setvar - To set the var with the dibot command
- ├ /delvar - To delete var with dibot command
- ├ /getvar - To view any
- ├  /users - To view bot user statistics
- ├ /batch - To link more than one file
- ├ /speedtest - To test bot server speed
- └ /broadcast - To send a broadcast message to the pen
-
-👨‍💻 Develoved by </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
+ᴍʏ ꜱᴇɴꜱᴇɪ 💕 </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
 """
 
     close = [
@@ -49,9 +39,9 @@ class Data:
 
  ᴛʜɪꜱ ɪꜱ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @aye_ujjwal.
 
- • ᴍʏ ꜱᴇɴꜱᴇɪ 💕: @{}
- • ᴍᴀɪɴ: <a href='https://t.me/Otaku_Vision_M'>Pyrogram</a>
- • ᴄᴏɴᴛᴀᴄᴛ ꜰᴏʀ ʀᴇᴘᴏ: <a href='https://t.me/aye_ujjwal'>@ᴀʏᴇ_ᴜᴊᴊᴡᴀʟ v4</a>
+ • ᴍʏ ɴᴀᴍᴇ ❣️: @{}
+ • ᴍᴀɪɴ: <a href='https://t.me/Otaku_Vision_M'>ᴏᴛᴀᴋᴜ ᴠɪꜱɪᴏɴ</a>
+ • ᴄᴏɴᴛᴀᴄᴛ ꜰᴏʀ ʀᴇᴘᴏ: <a href='https://t.me/aye_ujjwal'>@ᴀʏᴇ_ᴜᴊᴊᴡᴀʟ </a>
 
-👨‍💻 Develoved by </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
+ᴍʏ ꜱᴇɴꜱᴇɪ 💕 </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
 """
