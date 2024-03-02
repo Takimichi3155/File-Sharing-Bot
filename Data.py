@@ -45,13 +45,13 @@ class Data:
     ]
 
     ABOUT = """
-<b>Information:
+<b>ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ:
 
-@{} This Is telegram file store bot created by @aye_ujjwal.
+ ᴛʜɪꜱ ɪꜱ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @aye_ujjwal.
 
- • Creator: @{}
- • Framework: <a href='https://t.me/Otaku_Vision_M'>Pyrogram</a>
- • Source Code: <a href='https://t.me/Team_Nexus_M'>File-Sharing-Man v4</a>
+ • ᴍʏ ꜱᴇɴꜱᴇɪ 💕: @{}
+ • ᴍᴀɪɴ: <a href='https://t.me/Otaku_Vision_M'>Pyrogram</a>
+ • ᴄᴏɴᴛᴀᴄᴛ ꜰᴏʀ ʀᴇᴘᴏ: <a href='https://t.me/aye_ujjwal'>@ᴀʏᴇ_ᴜᴊᴊᴡᴀʟ v4</a>
 
 👨‍💻 Develoved by </b><a href='https://t.me/aye_ujjwal'>@aye_ujjwal</a>
 """
