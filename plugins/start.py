@@ -89,11 +89,11 @@ async def start_command(client: Bot, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("<code>Wait a minute...</code>")
+        temp_msg = await message.reply("<code>ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ...</code>")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
-            await message.reply_text("<b>An error has occurred </b>🥺")
+            await message.reply_text("<b>ᴀɴ ᴇʀʀᴏʀ ʜᴀꜱ ᴏᴄᴄᴜʀʀᴇᴅ </b>🥺")
             return
         await temp_msg.delete()
 
@@ -172,10 +172,10 @@ async def not_joined(client: Bot, message: Message):
 @Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(
-        chat_id=message.chat.id, text="<code>Processing ...</code>"
+        chat_id=message.chat.id, text="<code>ᴘʀᴏᴄᴇꜱꜱɪɴɢ...</code>"
     )
     users = await full_userbase()
-    await msg.edit(f"{len(users)} <b>Users use this bot</b>")
+    await msg.edit(f"{len(users)} <b>ᴜꜱᴇʀꜱ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ</b>")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
@@ -190,7 +190,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "<code>Broadcasting Message Wait a Moment...</code>"
+            "<code>ʙʀᴏᴀᴅᴄᴀꜱᴛɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ...</code>"
         )
         for row in query:
             chat_id = int(row[0])
@@ -211,16 +211,16 @@ async def send_text(client: Bot, message: Message):
                 except BaseException:
                     unsuccessful += 1
                 total += 1
-        status = f"""<b><u>Successful Broadcast</u>
-Number of Users: <code>{total}</code>
-Sucessful: <code>{successful}</code>
-Fail: <code>{unsuccessful}</code>
-User blocked: <code>{blocked}</code>
-Deleted Account: <code>{deleted}</code></b>"""
+        status = f"""<b><u>ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟ ʙʀᴏᴀᴅᴄᴀꜱᴛ</u>
+ɴᴜᴍʙᴇʀ ᴏꜰ ᴜꜱᴇʀꜱ: <code>{total}</code>
+ꜱᴜᴄᴇꜱꜱꜰᴜʟ: <code>{successful}</code>
+ꜰᴀɪʟ: <code>{unsuccessful}</code>
+ᴜꜱᴇʀ ʙʟᴏᴄᴋᴇᴅ: <code>{blocked}</code>
+ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛ: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
-            "<code>Use this command while responding to the telegram message you want to broadcast.</code>"
+            "<code>ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡʜɪʟᴇ ʀᴇꜱᴘᴏɴᴅɪɴɢ ᴛᴏ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇꜱꜱᴀɢᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ.</code>"
         )
         await asyncio.sleep(8)
         await msg.delete()
