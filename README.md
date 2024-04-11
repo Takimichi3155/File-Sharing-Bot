@@ -24,9 +24,15 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 - Tambahkan bot ke Channel ForceSub tambahkan bot sebagai ADMIN
 - Tambahkan bot ke Group ForceSub tambahkan bot sebagai ADMIN
 
-## 🛡 Installation
-### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://risman.vercel.app/file-deploy.html)</br>
+<h1 align="center">Deploy on Heroku</h1>
+
+<p align="center">Click the button below to deploy Siesta on Heroku and enjoy its enhanced features and user-friendly interface!</p>
+
+<p align="center">
+    <a href="https://heroku.com/deploy?template=https://github.com/ujjwal3155/File-Sharing-Bot">
+        <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+    </a>
+</p>
 
 **Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
 <a href="https://youtu.be/O2tieQgzYZg">
